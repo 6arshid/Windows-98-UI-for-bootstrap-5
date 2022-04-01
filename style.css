@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft Sans Serif", sans-serif;  
+}
+html {
+  cursor: url(assets/images/439-4393403_vaporwave-vector-windows-95-vector-free-windows-95.png), auto;
+} 
+body{
+  background-color: #007d7b!important;
+}
+.nav-bg-windows {
+  height: 38px;
+  background-color: rgb(189, 190, 189)!important;
+  border-top: 2px solid white;
+  padding: 3px;
+}
+.start-icon{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 70px;
+  height: 29px;
+  text-align: right;
+  font-family: sans-serif;
+  padding: 4px;
+  background-image: url("https://win98icons.alexmeub.com/images/start-button.png");
+  background-size: auto 70%;
+  background-position: 5% 50%;
+  background-repeat: no-repeat;
+}
+.start-icon:active{
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+.windows-dropup .dropdown-menu[data-bs-popper] {
+  top: auto;
+  bottom: 100%;
+  margin-top: 0;
+  background-color: rgb(189, 190, 189)!important;
+  border-top: 2px solid white;
+  padding-left: 25px;
+  /* border-left: 7px solid blue; */
+}
+
+.windows-sidebar {
+  height: 100%;
+  background: linear-gradient(to bottom, #000080, #1084d0);
+  display: inline-block;
+  width: 25px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.headline {
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  width: 150%;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  color: white;
+  position: absolute;
+  left 0: ;
+  bottom: 0;
+  text-align: left;
+  margin-bottom: -15px;
+}
+.windows-time {
+  display: inline-block;
+  height: 27px;
+  float: right;
+  text-align: center;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+.windows-icon{
+  width: 20px;
+  margin-right: 3px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background: #c0c0c0;
+  background-clip: padding-box;
+  border-top: 2px solid white;
+    border-right: 2px solid #222;
+    border-bottom: 2px solid #222;
+    border-left: 2px solid white;
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.modal-header {
+  position: relative;
+  background: linear-gradient(90deg, #000184, #0f80cd);
+  padding: 4px 6px 5px;
+  color: white;
+  font-size: 15px;
+  margin-right: 2px;
+  text-align: left;
+  height: 28px;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  background-color: #c2c6ca;
+}
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  background-color: #c2c6ca;
+  height: 40px;
+}
+.btn-primary {
+  color: #131313;
+  background-color: #c0c0c0;
+  border: 1px solid #131313;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  height: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.btn-primary:hover {
+  color: #131313;
+  background-color: #c0c0c0;
+  border: 1px solid #131313;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+.text-small{
+font-size: small;
+}
